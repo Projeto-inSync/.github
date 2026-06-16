@@ -1,5 +1,5 @@
 # inSync
-Este projeto propõe o desenvolvimento de um ecossistema digital voltado para adolescentes e pré-adolescentes (10 a 18 anos) com diabetes, utilizando gamificação e inteligência visual para transformar o monitoramento glicêmico em uma experiência interativa. Através de um bichinho virtual e análise de refeições por imagem, o usuário aprende, de forma intuitiva, a relação entre alimentação e saúde, enquanto os responsáveis acompanham o progresso em tempo real.
+Este projeto propõe o desenvolvimento de um ecossistema digital voltado para adolescentes e pré-adolescentes (10 a 17 anos) com diabetes, utilizando gamificação e inteligência visual para transformar o monitoramento glicêmico em uma experiência interativa. Através de um bichinho virtual e análise de refeições por imagem, o usuário aprende, de forma intuitiva, a relação entre alimentação e saúde, enquanto os responsáveis acompanham o progresso em tempo real.
 
 ## Integrantes
 | Alunos                | R.A        | Cargo         |
@@ -8,9 +8,6 @@ Este projeto propõe o desenvolvimento de um ecossistema digital voltado para ad
 | Gabriel Ferrassini    | 24.00918-0 | Desenvolvedor |
 | Giovanna Albuquerque  | 24.01460-5 | Desenvolvedor |
 | Isabella Passarelli   | 24.00038-8 | Desenvolvedor |
-
-## Estrutura do Projeto
-Em desenvolvimento...
 
 ## Funcionalidades
 01. Sistema de Gamificação
@@ -26,35 +23,22 @@ Em desenvolvimento...
 03. Educação Alimentar Visual
 * Feedback visual baseado nas escolhas alimentares
 * Demonstração de efeitos de alimentos com alto índice glicêmico
-* Aprendizado intuitivo sobre saúde e nutrição
 
 04. Painel do Responsável
 * Cadastro e gerenciamento do perfil do filho
 * Monitoramento em tempo real
 * Relatórios semanais de evolução
-* Notificações de risco (hipoglicemia e hiperglicemia)
+* Notificações de risco
 
-
-05. Sistemas de Planos (Saas)
-* Período de teste gratuito (15 dias)
-* Plano individual (1 usuário)
-* Plano família (múltiplos usuários)
-
-06. Painel Administrativo
-* Controle de usuários e assinaturas
+05. Painel Administrativo
+* Controle de usuários
 * Métricas de crescimento e retenção
-* Análise de dados agregados de saúde
 
 ## Tecnologias Utilizadas
-Frontend:
+Frontend: React Native, TypeScript, Expo
 
-Backend:
+Backend: Python
 
-Banco de Dados:
+Banco de Dados: PostgreSQL
 
-Inteligência Artificial: Análise de imagem para reconhecimento dos alimentos
-
-## Como rodar o projeto
-
-## Pré-requisitos
-Em desenvolvimento...
+Inteligência Artificial: Gemini 2.5 Flash-Lite (Análise de imagem para reconhecimento dos alimentos)
